@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mystyle.css">
     <script src="node_modules/bootstrap/dist/js/bootstrap.js" rel="JavaScript"></script>
+    <link rel="shortcut icon" href="img/icon.png">
 </head>
 
 <body>
@@ -65,9 +66,9 @@
                 <label for="modeloMovilInput" class="form-label">Dispositivo en el que desea participar en el sorteo</label>
                 <select class="form-select" id="dispositivoSeleccionado" name="Dispositivo de sorteo" aria-label="Seleccione su modelo de dispositivo móvil" novalidate>
                     <option selected>Ninguno</option>
-                    <option value="1">iPhone 15 Pro Max 8GB/256GB</option>
-                    <option value="2">Red Nubia Magic 8S Pro 16GB/512GB</option>
-                    <option value="3">Xiaomi 14 Pro 16GB/1TB</option>
+                    <option value="iPhone 15 Pro Max 8GB/256GB">iPhone 15 Pro Max 8GB/256GB</option>
+                    <option value="Red Nubia Magic 8S Pro 16GB/512GB">Red Nubia Magic 8S Pro 16GB/512GB</option>
+                    <option value="Xiaomi 14 Pro 16GB/1TB">Xiaomi 14 Pro 16GB/1TB</option>
                   </select>
             </div>
 
@@ -118,7 +119,7 @@
             </div>
 
             <div class="col-12">
-                <button type="submit" class="btn btn-primary button" >
+                <button type="submit" class="btn btn-primary button" onclick="validarFormulario()">
                     Regístrate
                 </button>
             </div>
